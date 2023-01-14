@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  background-color: hsla(257, 72%, 89%, 1);
+  color: #271a45;
+  font-family: "Lato", sans-serif;
+  padding: 160px 0;
+}
+.sofa360 img, 
+.sofaStatic img {
+    width: 449px;
+    height: 222px;    
+}
+.image{
+position: relative;
+    
+}
+.image .btnx img,
+.image .btn360 img{
+   
+position: absolute;
+top: 8px;
+right: 50px;
+
+cursor: pointer;
+
+}
+span {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+h2 {
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(40, 27, 70, 0.613);
+    margin-bottom: 20px;
+}
+button {
+    font-family: "Lato", sans-serif;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    color: #271a45;
+    border: 1px solid #271a45;
+    background: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    transition: 0.9s;
+  }
+  button:hover{
+    background: #271a45;
+    color: #fff;
+    border: 1px solid #271a45;
+    
+}
+.hide{
+    display: none;
+}
