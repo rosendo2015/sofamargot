@@ -1,38 +1,46 @@
-body {
-  width: 100%;
-  height: 100vh;
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  width: 100%;
+  background-color: hsla(257, 72%, 89%, 1);
+  height: 100vh;
+  
+  padding: 160px 0;
+}
 #app {
+  
+  width: 875px;
+  height: 475px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 13px;
-  background-color: hsla(257, 72%, 89%, 1);
   color: #271a45;
   font-family: "Lato", sans-serif;
-  padding: 160px 0;
+
 }
 .sofa360 img, 
 .sofaStatic img {
-    width: 449px;
-    height: 222px;    
+  width: 449px;
+  height: 222px;    
 }
 .image{
-position: relative;
-    
+  position: relative;
+  
 }
 .image .btnx img,
 .image .btn360 img{
-   
-position: absolute;
-top: 8px;
-right: 50px;
-
-cursor: pointer;
-
+  
+  position: absolute;
+  top: 8px;
+  right: 50px;
+  
+  cursor: pointer;
+  
 }
 span {
   font-weight: 300;
